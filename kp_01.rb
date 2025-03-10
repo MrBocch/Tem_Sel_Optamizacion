@@ -58,8 +58,8 @@ possible.each do |l|
   end
 end
 
-puts "Todas las listas possibles"
-t_all_posible.show
+#puts "Todas las listas possibles"
+#t_all_posible.show
 
 puts "Listas que cumplen con capacidad"
 t_filtered.rows.sort_by!{|l| -l[BENEFIT]}
